@@ -23,10 +23,10 @@ This project focuses on analyzing a dataset of Netflix titles, including movies 
 
 1. Reading the Dataset
 
-	•	Load the dataset into a pandas DataFrame.
-	•	Display the first 10 rows to get an overview of the data structure.
+	*	Load the dataset into a pandas DataFrame
+	*	Display the first 10 rows to get an overview of the data structure.
 
-2. Data Cleaning
+3. Data Cleaning
 
 	•	Handle Missing Values: Replace or drop rows/columns with missing values, focusing on director and country.
 	•	Date Formatting: Convert the date_added column to a datetime format.
@@ -35,7 +35,7 @@ This project focuses on analyzing a dataset of Netflix titles, including movies 
 	•	seasons: Number of seasons for TV shows.
 	•	Duplicates: Remove duplicate rows.
 
-3. Data Transformation
+4. Data Transformation
 
 	•	Categorical Encoding: Transform type, rating, and listed_in into categorical variables.
 	•	Create Decade Column: Group release_year into decades (e.g., 1990s, 2000s, 2010s).
@@ -44,7 +44,7 @@ This project focuses on analyzing a dataset of Netflix titles, including movies 
 	•	Medium: 90–120 minutes.
 	•	Long: >120 minutes.
 
-4. Data Analysis
+5. Data Analysis
 
 	•	Top Genres: Identify the top 5 most frequent genres/categories.
 	•	Country Contribution: Analyze which countries contribute the most titles to Netflix.
@@ -53,7 +53,7 @@ This project focuses on analyzing a dataset of Netflix titles, including movies 
 	•	Yearly Content Trend: Analyze trends in the number of titles added to Netflix over the years.
 	•	Average Movie Duration: Calculate the average duration of movies.
 
-5. Data Visualization
+6. Data Visualization
 
 	•	Genre Popularity: Bar plot for the top 5 genres.
 	•	Country Contribution: Horizontal bar plot for the top 10 countries.
