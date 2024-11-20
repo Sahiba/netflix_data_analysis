@@ -26,7 +26,7 @@ This project focuses on analyzing a dataset of Netflix titles, including movies 
 	*	Load the dataset into a pandas DataFrame
 	*	Display the first 10 rows to get an overview of the data structure.
 
-3. Data Cleaning
+3. Data Cleaning:
 
 	•	Handle Missing Values: Replace or drop rows/columns with missing values, focusing on director and country.
 	•	Date Formatting: Convert the date_added column to a datetime format.
@@ -35,7 +35,7 @@ This project focuses on analyzing a dataset of Netflix titles, including movies 
 	•	seasons: Number of seasons for TV shows.
 	•	Duplicates: Remove duplicate rows.
 
-4. Data Transformation
+4. Data Transformation:
 
 	•	Categorical Encoding: Transform type, rating, and listed_in into categorical variables.
 	•	Create Decade Column: Group release_year into decades (e.g., 1990s, 2000s, 2010s).
