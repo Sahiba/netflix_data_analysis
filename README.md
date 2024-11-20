@@ -1,12 +1,12 @@
-Netflix Data Analysis and Visualization
+## Netflix Data Analysis and Visualization
 
-Overview
+### Overview
 
 This project focuses on analyzing a dataset of Netflix titles, including movies and TV shows. The analysis involves reading, cleaning, transforming, analyzing, and visualizing the data to gain insights into Netflix’s content catalog.
 
-Dataset Details
+### Dataset Details
 
-Columns:
+### Columns:
 
 	•	show_id: Unique identifier for each title.
 	•	type: Indicates whether the title is a “Movie” or “TV Show.”
@@ -19,7 +19,7 @@ Columns:
 	•	duration: Duration of the movie or number of seasons (for TV shows).
 	•	listed_in: Genres or categories (multiple possible).
 
-Analysis Tasks
+### Analysis Tasks
 
 1. Reading the Dataset
 
@@ -61,13 +61,13 @@ Analysis Tasks
 	•	Yearly Trends: Line plot showing the number of titles added each year.
 	•	Movie Length: Histogram showing the distribution of movie lengths.
 
-How to Use
+### How to Use
 
 	1.	Clone this repository.
 	2.	Load the netflix_data.csv file into your working environment.
 	3.	Follow the notebook steps to complete the analysis and visualization tasks.
 
-Future Improvements
+### Future Improvements
 
 	•	Incorporate advanced visualizations with interactive dashboards.
 	•	Analyze trends by combining Netflix data with external datasets like IMDb scores.
